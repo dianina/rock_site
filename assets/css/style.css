@@ -1,0 +1,137 @@
+/*
+Resetear el navegador y estilos generales
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: lighter;
+}
+
+/* 
+Estilos de menu navegación global del site 
+*/
+.background-grey{
+	background: grey;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	background:#63605D;
+	color: #FFF;
+	padding: 15px 150px 0 150px;
+}
+
+.header h1 {
+	font-size: 20px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.menu-movil {
+	display: none;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+}
+
+.menu p:first-child {
+	font-weight: bold;
+}
+
+.menu p {
+	float: left;
+	font-size: 15px;
+	font-weight: lighter;
+	margin-left: 30px;
+}
+
+/*
+Estilos "img" del encabezado
+*/
+.img-header {
+	background-image: url(../img/header.jpg);
+	opacity: 0.5;
+	background-size: cover;
+	color: #FFF;
+	text-align: center;
+}
+
+.img-header h2 {
+	font-weight: lighter;
+	font-size: 100px;
+	padding-top: 300px;
+}
+
+.img-header h3 {
+	font-weight: lighter;
+	font-size: 50px;
+	padding-bottom: 200px;
+}
+
+/*
+Estilos sección 1
+*/
+
+.text-box {
+	width: 650px;
+	height: auto;
+	padding: 150px 0 0 180px;
+	color:  #24282C;
+}
+
+.img {
+	width: 450px;
+	height: auto;
+	border-radius: 300px;
+	margin: 40px 10px 0 0px;
+}
+
+/*
+Estilos sección 2
+*/
+
+.img2 {
+	width: 450px;
+	height: auto;
+	border-radius: 300px;
+	margin: 40px 0 0 180px;
+}
+
+.text-box2 {
+	width: 650px;
+	height: auto;
+	padding: 150px 0 0 220px;
+	color: #24282C;
+}
+
+/*
+Pie de página
+*/
+
+.footer {
+	height: 150px;
+	background: #63605D;
+	color: #FFF;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.footer h4 {
+	padding-top: 70px;
+	font-weight: lighter;
+}
