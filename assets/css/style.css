@@ -135,3 +135,174 @@ Pie de página
 	padding-top: 70px;
 	font-weight: lighter;
 }
+
+/*
+Esto es para estilo responsive
+*/
+
+/*
+Dispositivo Galaxy 
+S5*/
+
+@media (min-device-width: 360px) and (max-device-height: 640px) {
+  .header {
+    width: 100%;
+    height: 60px;
+    background: #63605D;
+    color: #FFF;
+    padding: 20px 30px 0 30px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+  }
+
+  .menu-movil {
+    float: right;
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .img-header {
+    height: 600px;
+    background-image: url(../img/header.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .img-header h2 {
+    font-weight: lighter;
+    font-size: 90px;
+    padding-top: 100px;
+  }
+
+  .box-text {
+    width: 330px;
+    height: auto;
+    padding: 50px 0 0 50px;
+    color: #24282C;
+    float: left;
+  }
+
+  .img {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 500px 55px 0 0;
+    float: right;
+  }
+
+  .img2 {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 100px 0 0 50px;
+    float: left;
+  }
+  .box-text2 {
+    width: 300px;
+    height: auto;
+    padding: 50px 15px 0 0;
+    margin-top: 400px;
+    margin-bottom: 100px;
+    color: #24282C;
+    float: right;
+  }
+
+  .footer h4 {
+    padding-top: 30px;
+  }
+
+
+/*
+Estilos para Moto G4
+*/
+
+@media (min-device-width: 424px) and (max-device-height: 753px) {
+  .header {
+    width: 100%;
+    height: 60px;
+    background: #63605D;
+    color: #FFF;
+    padding: 20px 30px 0 30px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+  }
+
+  .menu-movil {
+    float: right;
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .img-header {
+    height: 600px;
+    background-image: url(../img/header.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .img-header h2 {
+    font-weight: lighter;
+    font-size: 90px;
+    padding-top: 100px;
+  }
+
+  .box-text {
+    width: 340px;
+    height: auto;
+    padding: 70px 0 0 90px;
+    color: #24282C;
+    float: left;
+  }
+
+  .img {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 550px 90px 0 0;
+    float: right;
+  }
+
+  .img2 {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 150px 0 0 90px;
+    float: left;
+  }
+
+  .box-text2 {
+    width: 330px;
+    height: auto;
+    padding: 50px 70px 0 0;
+    margin-right: 5px;
+    margin-top: 450px;
+    margin-bottom: 150px;
+    color: #24282C;
+    float: right;
+  }
+
+  .footer h4 {
+    padding-top: 30px;
+  }
+
+
